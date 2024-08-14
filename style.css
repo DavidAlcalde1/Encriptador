@@ -1,0 +1,338 @@
+*{
+    background: #F3F5FC;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    text-align: left;
+    overflow-y: hidden;
+
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 1.5%;
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.alertImage {
+    height: 20px;
+    
+}
+
+.text-area {
+    border: none;
+    color:#0A3871;
+    /* width: 577px;
+    height: 48px; */
+    margin-top: 168px;
+    /* margin-left: 240px; */
+    /* gap: 0px; */
+    /* opacity: 0px; */
+    text-transform: lowercase;
+    resize: none;
+}
+
+::placeholder { 
+    color: #0A3871; 
+}
+
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensaje{
+    background: white;
+    background-image: url("images/munieco.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: contain;
+    border: none;
+    color: #0A3871;
+    /* width: 400px;*/
+    height: 830px; 
+    margin-top: 20px;
+    margin-left: 640px;
+    padding-left: 20px;
+    /* gap: 0px; */
+    border-radius: 24px;
+    /* opacity: 0px; */
+    position: fixed;
+    resize: none;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.information {
+    color: #495057;
+    font-size: 12px;
+
+}
+
+.btns {
+    display: flex;
+    margin-top: 18px;    
+}
+
+.btn-decrypt {
+    background: #D8DFE8;
+    color: #0A3871;
+    cursor: pointer;
+    width: 328px;
+    height: 67px;
+    /* padding: 24px; */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    margin-left: 30px;
+    /* opacity: 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-encrypt {
+    background-color: #0A3871;
+    color: white;
+    cursor: pointer;
+    width: 328px;
+    height: 67px;
+    /* padding: 24px; */
+    /* gap: 8px; */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    /* opacity: 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noMessage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    line-height: 0px;
+    position: absolute;
+    margin: 620px 0 0 665px;
+}
+
+.noMessage h3 {
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 16px;
+}
+
+.noMessage h5 {
+    background-color: white;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+
+.btn-copy {
+    color: #0A3871;
+    width: 336px;
+    height: 67px;
+    margin-top: 750px;
+    margin-left: 643px;
+    /* padding: 24px; */
+    /* gap: 8px; */
+    /* opacity: 0px; */
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    position:absolute;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ---------------- RESPONSIVITY 768px --------------------*/
+
+@media (max-width: 768px) {
+    * {
+        margin-left: 5px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .logo {
+        width: 10px;
+        width: 20px;
+    }
+
+    .text-area {
+        
+        width: 90%; 
+        margin-top: 40px;
+        /* margin-left: auto;
+        margin-right: auto; */
+    } 
+
+    .alert {
+        display: flex;
+        align-items: center;
+        justify-content:flex-start;
+    }
+
+    .alertImage {
+        height: 15px;
+    }
+    
+
+    .mensaje {
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 728px; 
+        height: 300px;
+        background-image: none; 
+    }
+
+    .noMessage {
+        display: flex;
+        margin-top: 50px;
+        width: 500px;
+        margin-left: 120px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .noMessage h3 {
+        font-size: 24px;
+    }
+    
+    .noMessage h5 {
+        font-size: 16px;
+    }
+
+    .btn-copy {
+        margin-top: 220px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin-left: 25px;
+        width: 700px;  
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .btn-decrypt, .btn-encrypt {
+        width: 85%; 
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+}
+
+
+/* ---------------- RESPONSIVITY 375px --------------------*/
+
+@media (max-width: 375px) {
+    * {
+        margin-left: 3px;
+        /* margin-top: 1px; */
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .logo {
+        margin-top: 5px;
+        margin-left: 7px;
+        width: 20px;
+        height: 30px;
+    }
+
+    .text-area {
+        
+        width: 90; 
+        margin-top: 40px;
+        margin-left: 7px;
+        padding: 0;
+        height: 250px;
+        /* margin-right: auto; */
+    } 
+
+    .information {
+        margin-left: 7px;
+    }
+
+    .mensaje {
+        margin-top: 10px;
+        margin-left: 7px;
+        width: 320px; 
+        height: 200px;
+        background-image: none; 
+    }
+
+    .noMessage {
+        display: flex;
+        margin-top: 40px;
+        width: 80%;
+        margin-left: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .noMessage h3 {
+        font-size: 16px;
+    }
+    
+    .noMessage h5 {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    .btns {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .btn-copy {
+        margin-top: 140px;
+        /* margin-left: auto;
+        margin-right: auto; */
+        margin-left: 10px;
+        width: 330px;  
+        /* justify-content: center;
+        align-items: center;
+        text-align: center; */
+    }
+
+    .btn-decrypt, .btn-encrypt {
+        width: 330px; 
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+    }
+}
