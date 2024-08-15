@@ -68,11 +68,11 @@ Los pasos para la realización de este proyecto fueron básicamente 3:
 [link de Page de Proyecto Encriptador](https://davidalcalde1.github.io/Encriptador/)
 
 
-<div align="center>
+<div align="center">
 
-    <p>Desarrollado por:**</p><br>
-    
-    <p>*José David Alcalde Cabrera*</p>
+    Desarrollado por:
+
+    José David Alcalde Cabrera
 
 </div>
 
