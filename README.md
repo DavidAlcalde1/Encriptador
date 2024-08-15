@@ -4,7 +4,7 @@
 
 Este proyecto trata acerca de una aplicación que *encripta textos* de tal manera que:
 
-La letra "e" es convertida para "enter"
+<div align="center">La letra "e" es convertida para "enter"
 
 La letra "i" es convertida para "imes"
 
@@ -13,6 +13,8 @@ La letra "a" es convertida para "ai"
 La letra "o" es convertida para "ober"
 
 La letra "u" es convertida para "ufat"
+
+</div>
 
 *Por ejemplo:*
 
@@ -29,18 +31,19 @@ El proyecto Encriptador, se hizo responsivo para tres tamaños de pantalla:
 
 - 1920 x 1080 px ( PC )
 
+<div align="center">
 ![PC](./images/visual_PC.jpg)
-
+</div>
 
 - 768 x 1174 px ( Tablet )
-
+<div align="center">
 ![Tablet](./images/visual_Tablet.jpg)
-
+</div>
 
 - 375 x 1174 px ( Móvil )
-
+<div align="center">
 ![Móvil](./images/visual_cel.jpg)
-
+</div>
 
 Los pasos para la realización de este proyecto fueron básicamente 3:
 
@@ -57,9 +60,10 @@ Los pasos para la realización de este proyecto fueron básicamente 3:
  Capturar los elementos del HTML y darle funcionalidad a los botones ecriptar, desencriptar y copiar, con el lenguaje JavaScript
 
 
+[link de Page de Proyecto Encriptador](https://davidalcalde1.github.io/Encriptador/)
+
+
  **Desarrollado por:**
 
  *José David Alcalde Cabrera*
 
-
-[link de Page de Proyecto Encriptador](https://davidalcalde1.github.io/Encriptador/)
