@@ -69,8 +69,10 @@ Los pasos para la realización de este proyecto fueron básicamente 3:
 
 
 <div align="center>
- **Desarrollado por:**
 
- *José David Alcalde Cabrera*
- </div>
+    <p>Desarrollado por:**</p><br>
+    
+    <p>*José David Alcalde Cabrera*</p>
+
+</div>
 
