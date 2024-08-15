@@ -65,14 +65,16 @@ Los pasos para la realización de este proyecto fueron básicamente 3:
  Capturar los elementos del HTML y darle funcionalidad a los botones encriptar, desencriptar y copiar, con el lenguaje JavaScript
 
 
-[link de Page de Proyecto Encriptador](https://davidalcalde1.github.io/Encriptador/)
-
-
 <div align="center">
-
     Desarrollado por:
 
     José David Alcalde Cabrera
-
 </div>
+
+
+[link de Page de Proyecto Encriptador](https://davidalcalde1.github.io/Encriptador/)
+
+
+  
+
 
