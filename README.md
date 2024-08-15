@@ -36,15 +36,19 @@ El proyecto Encriptador, se hizo responsivo para tres tamaños de pantalla:
     <img src="/images/visual_PC.jpg"/>
 </div>
 
+
 - 768 x 1174 px ( Tablet )
 <div align="center">
 <img src="./images/visual_Tablet.jpg"/>
 </div>
 
+
 - 375 x 1174 px ( Móvil )
 <div align="center">
 <img src="./images/visual_cel.jpg"/>
 </div>
+
+
 
 Los pasos para la realización de este proyecto fueron básicamente 3:
 
@@ -64,7 +68,9 @@ Los pasos para la realización de este proyecto fueron básicamente 3:
 [link de Page de Proyecto Encriptador](https://davidalcalde1.github.io/Encriptador/)
 
 
+<div align="center>
  **Desarrollado por:**
 
  *José David Alcalde Cabrera*
+ </div>
 
