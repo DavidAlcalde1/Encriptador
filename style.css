@@ -62,9 +62,9 @@ main {
     border: none;
     color: #0A3871;
     /* width: 400px;*/
-    height: 830px; 
+    height: 800px; 
     margin-top: 20px;
-    margin-left: 640px;
+    margin-left: 530px;
     padding-left: 20px;
     /* gap: 0px; */
     border-radius: 24px;
@@ -128,7 +128,7 @@ main {
     background-color: white;
     line-height: 0px;
     position: absolute;
-    margin: 620px 0 0 665px;
+    margin: 620px 0 0 553px;
 }
 
 .noMessage h3 {
@@ -151,7 +151,7 @@ main {
     width: 336px;
     height: 67px;
     margin-top: 750px;
-    margin-left: 643px;
+    margin-left: 533px;
     /* padding: 24px; */
     /* gap: 8px; */
     /* opacity: 0px; */
